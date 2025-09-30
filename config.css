@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: monospace;
+}
+
+.cuadros {
+    width: auto;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    border: 1px solid black;
+}
+
+.cuadros {
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bolder;
+    font-family: sans-serif;
+
+    
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px rgb(255, 144, 184);
+}
+
+.uno {
+    background-color: rgb(147, 102, 67);
+    grid-column: 1/3;
+}
+
+.dos {
+    height: auto;
+    background-color: rgb(161, 208, 255);
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.tres {
+    background-color: rgb(255, 191, 241);
+}
+
+.cuatro {
+    background-color: rgb(246, 200, 255);
+}
+
+.cinco {
+    height: auto;
+    background-color: rgb(255, 172, 172);
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.diez {
+    height: auto;
+    background-color: rgb(255, 181, 220);
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+
